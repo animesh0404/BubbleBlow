@@ -14,6 +14,10 @@ function draw() {
         bub.jitter();
         bub.remove();
     }
+    textSize(32);
+    fill(225);
+    textAlign(CENTER);
+    text("Press SPACE to clear.",width/2,height-10);
 }
 
 function mousePressed() {
